@@ -12,7 +12,9 @@ void read_dht11_dat()
 {
 	static double TempC
 	static double TempF
+	static double TempF2;
 	static double Hum
+	static double Hum2;
 	uint8_t laststate	= HIGH;
 	uint8_t counter		= 0;
 	uint8_t j		= 0, i;
