@@ -7,8 +7,9 @@ int main () {
 FILE* fp;
 use(TempF);
 use(TempC);
+use(TempC);
 use(Hum);
-
+use(Hum2);
 	fp = fopen("bigdata.txt", "a");
 
 	fprintf( &fp, "%d %d %d", TempC, TempF, Hum)
