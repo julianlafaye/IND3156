@@ -9,9 +9,9 @@ use(TempF);
 use(TempC);
 use(Hum);
 
-	fp = fopen("bigdata.txt");
+	fp = fopen("bigdata.txt", "a");
 
-	fprintf( &fp
+	fprintf( &fp, "%d %d %d", TempC, TempF, Hum)
 
 	smalldata(fp)
 return(0)
