@@ -12,7 +12,7 @@ use(Hum);
 use(Hum2);
  for (int i = 1; i <= 1; i++)
     {
-	fp = fopen("bigdata.txt", "a");
+	fp = fopen("bigdata.txt", "a+");
 
 		fprintf( &fp, "\n %d %d %d", TempC, TempF, Hum)
 
