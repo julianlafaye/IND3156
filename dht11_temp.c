@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
+#include <sensordat.h>
 #define MAXTIMINGS	85
 #define DHTPIN		7
 int dht11_dat[5] = { 0, 0, 0, 0, 0 };
