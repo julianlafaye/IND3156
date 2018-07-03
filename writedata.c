@@ -10,12 +10,25 @@ use(TempC);
 use(TempC);
 use(Hum);
 use(Hum2);
+ for (int i = 1; i <= 1; i++)
+    {
 	fp = fopen("bigdata.txt", "a");
 
-	fprintf( &fp, "%d %d %d", TempC, TempF, Hum)
+		fprintf( &fp, "\n %d %d %d", TempC, TempF, Hum)
 
-	smalldata(fp)
+		fflush(fp)
+		
+		smalldata(fp, i)
+	
+	fclose(fp)
+	}
 return(0)
 }
 
-void smalldata(fp) {
+void smalldata(fp, i) {
+
+tail(fp, i)
+
+
+return	
+}
