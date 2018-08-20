@@ -1,1 +1,0 @@
-tempc.tempc2, tempf, hum.hum2
